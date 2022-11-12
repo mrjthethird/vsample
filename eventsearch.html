@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>Event Search Results</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="i/favicon.png" type="image/x-icon">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- Bootstrap 4.5.2 CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<!-- Startup CSS (Styles for all blocks) - Remove ".min" if you would edit a css code -->
+		<link href="css/style.min.css" rel="stylesheet" />
+		<!-- jQuery 3.5.1 -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	</head> 
+	<body>
+<!-- Navigation Mobile type 1 -->
+	<a href="#" class="open_menu bg-light radius_full">
+		<i class="fas fa-bars lh-40">
+		</i>
+	</a>
+	<div class="navigation_mobile bg-dark type1">
+		<a href="#" class="close_menu color-white">
+			<i class="fas fa-times">
+			</i>
+		</a>
+		<div class="px-40 pt-60 pb-60 inner">
+			<a href="#" class="mb-30 link img_link">
+				<img src="i/logo-white.svg" alt="Logo" class="img-fluid">
+			</a>
+			<div>
+				<a href="#" class="f-heading f-22 link color-white mb-20">
+					Home
+				</a>
+			</div>
+			<div>
+				<a href="#" class="f-heading f-22 link color-white mb-20">
+					Tour
+				</a>
+			</div>
+			<div>
+				<a href="#" class="f-heading f-22 link color-white mb-20">
+					Mobile Apps
+				</a>
+			</div>
+			<div>
+				<a href="#" class="f-heading f-22 link color-white mb-20">
+					Pricing
+				</a>
+			</div>
+			<div>
+				<a href="#" class="f-heading f-22 link color-white mb-20">
+					Development
+				</a>
+			</div>
+			<div>
+				<a href="#" class="link color-white op-3 mb-15">
+					Help
+				</a>
+			</div>
+			<div>
+				<a href="#" class="link color-white op-3 mb-15">
+					F.A.Q.
+				</a>
+			</div>
+			<div>
+				<a href="#" class="link color-white op-3 mb-15">
+					Support
+				</a>
+			</div>
+			<div>
+				<a href="#" class="link color-white op-3 mb-15">
+					About Us
+				</a>
+			</div>
+			<div>
+				<a href="#" class="link color-white op-3 mb-15">
+					Blog
+				</a>
+			</div>
+			<div>
+				<a href="#" class="link color-white op-3 mb-15">
+					Careers
+				</a>
+			</div>
+			<div class="socials mt-40">
+				<a href="#" target="_blank" class="link color-white f-18 mr-20">
+					<i class="fab fa-twitter">
+					</i>
+				</a>
+				<a href="#" target="_blank" class="link color-white f-18 mr-20">
+					<i class="fab fa-facebook">
+					</i>
+				</a>
+				<a href="#" target="_blank" class="link color-white f-18 mr-20">
+					<i class="fab fa-google-plus-g">
+					</i>
+				</a>
+			</div>
+			<div class="mt-50 f-14 light color-white op-3 copy">
+				© 2021 Designmodo. All rights reserved.
+			</div>
+		</div>
+	</div>
+	<!-- Header 1 -->
+		<header class="bg-light header_1 pt-140">
+			<nav class="header_menu_1 pt-30 pb-30 mt-30">
+				<div class="container px-xl-0">
+					<div class="row justify-content-center align-items-center f-18 medium">
+						<div class="col-lg-3">
+							<a href="#" class="link img_link">
+								<img src="https://s3.amazonaws.com/static.vendmae.com/logo160.png" alt="Logo" class="img-fluid aos-animate">
+							</a>
+						</div>
+						<div class="col-lg-6 text-center aos-animate">
+							<a href="#" class="link color-heading mx-15">
+								Home
+							</a>
+							<a href="#" class="link color-heading mx-15">
+								For Vendors
+							</a>
+							<a href="#" class="link color-heading mx-15">
+								For Event Hosts
+							</a>
+							<a href="#" class="link color-heading mx-15">
+								Help
+							</a>
+							<a href="#" class="link color-heading f-16 mx-15">
+								<i class="fas fa-search">
+								</i>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-end align-items-center aos-animate">
+							<a href="#" class="link mr-20 color-heading">
+								My Profile
+							</a>
+							<a href="#" class="btn sm action-1">
+								Sign Out
+							</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Blog 36 -->
+			<section class="pt-100 pb-100 bg-light blog_36">
+				<div class="container px-xl-0">
+					<div class="row justify-content-between">
+						<div class="col-xl-3 d-flex justify-content-between flex-wrap d-xl-block">
+							<div class="mb-5 mb-md-0 mb-xl-5 col-12 col-md-4 col-lg-3 col-xl-12 px-0 d-xl-block">
+								<h4 class="mb-20 f-32">
+									Find me a....
+								</h4>
+								<form action="form-handler.php" method="post">
+									<select name="unnamed-select" class="mb-10 input w-full border-gray focus-action-1 color-heading placeholder-heading lg">
+										<option>
+											Vendor
+										</option>
+										<option>
+											Event
+										</option>
+									</select>
+								</form>
+							</div>
+							<div class="mb-5 mb-md-0 mb-xl-5 col-12 col-md-4 col-lg-3 col-xl-12 px-0 d-xl-block">
+								<h4 class="mb-20 f-28">
+									Availability
+								</h4>
+								<form action="form-handler.php" method="post">
+									<input type="text" name="unnamed-input" placeholder="Placeholder text" class="mb-10 input border-gray focus-action-1 color-heading placeholder-heading w-full">
+									<select name="unnamed-select" class="mb-10 input w-full border-gray focus-action-1 color-heading placeholder-heading">
+										<option>
+											Option 1
+										</option>
+										<option>
+											Option 2
+										</option>
+										<option>
+											Option 3
+										</option>
+									</select>
+									<textarea name="unnamed-textarea" placeholder="Placeholder text" class="mb-10 input border-gray focus-action-1 color-heading placeholder-heading w-full h-110">
+									</textarea>
+									<div class="mb-10">
+										<label class="input-control input-check border-gray checked-action-1">
+											<input type="checkbox" name="unnamed-checkbox">
+											<div class="mr-10 input-control-box radius6">
+												<i class="fas fa-check input-control-icon f-12 color-white">
+												</i>
+											</div>
+											<span class="input-control-label">
+												Some checkbox text
+											</span>
+										</label>
+									</div>
+									<div class="mb-10">
+										<label class="input-control input-radio border-gray checked-action-1 mr-10">
+											<input type="radio" name="unique-radio-name" value="radio-1-value" checked="checked">
+											<div class="mr-10 input-control-box radius_full">
+												<div class="input-control-icon w-10 h-10 bg-action-1">
+												</div>
+											</div>
+											<span class="input-control-label">
+												Radio 1 text
+											</span>
+										</label>
+										<label class="input-control input-radio border-gray checked-action-1">
+											<input type="radio" name="unique-radio-name" value="radio-2-value">
+											<div class="mr-10 input-control-box radius_full">
+												<div class="input-control-icon w-10 h-10 bg-action-1">
+												</div>
+											</div>
+											<span class="input-control-label">
+												Radio 2 text
+											</span>
+										</label>
+									</div>
+									<div class="mb-10">
+										<label class="input-control input-toggle checked-action-1">
+											<input type="checkbox" name="unnamed-toggle">
+											<div class="mr-10 w-40 input-control-box radius12 bg-gray">
+												<i class="input-control-icon bg-white">
+												</i>
+											</div>
+											<span class="input-control-label">
+												Some text near toggle
+											</span>
+										</label>
+									</div>
+									<button class="btn action-1">
+										Button text
+									</button>
+								</form>
+							</div>
+							<div class="mb-5 mb-md-0 mb-xl-5 col-12 col-md-4 col-lg-3 col-xl-12 px-0 d-xl-block">
+								<h4 class="mb-20 f-28">
+									Categories
+								</h4>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Accessories
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-main">
+									Apparel
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Home Goods
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link bold action-3">
+									Fine Art
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Fraternity &amp; Soroity
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Stationary
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Personal Care
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Youth Development
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Health
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Wealth
+								</a>
+								<a href="#" class="mb-10 d-block f-18 link color-heading">
+									Wellness
+								</a>
+								<a href="#" class="mb-xl-5 d-block f-18 link color-heading">
+									Food and Beverage
+								</a>
+							</div>
+						</div>
+						<div class="mb-50 mb-xl-0 col-xl-8">
+							<div>
+								<h2>
+									Fine Art
+								</h2>
+								<div class="color-heading text-adaptive mb-4">
+									Paintings and drawings, photography, pottery, sculpture, print making, etc)
+								</div>
+							</div>
+							<div class="row">
+								<div class="mb-30 col-md-6">
+									<div class="h-full d-flex flex-column justify-content-between">
+										<div>
+											<a href="#" class="mb-25 w-full link img_link">
+												<img src="i/blog_36_img_1.jpg" srcset="i/blog_36_img_1@2x.jpg 2x" alt="" class="w-full radius10">
+											</a>
+											<a href="#" class="d-block color-main f-22 medium link">
+												Julias Travel Photos
+											</a>
+										</div>
+										 
+									</div>
+								</div>
+								<div class="mb-30 col-md-6">
+									<div class="h-full d-flex flex-column justify-content-between">
+										<div>
+											<a href="#" class="mb-25 w-full link img_link">
+												<img src="i/blog_36_img_2.jpg" srcset="i/blog_36_img_3@2x.jpg 2x" alt="" class="w-full radius10">
+											</a>
+											<a href="#" class="d-block color-main f-22 medium link">
+												Train Photos
+											</a>
+										</div>
+										 
+									</div>
+								</div>
+								<div class="mb-30 col-md-6">
+									<div class="h-full d-flex flex-column justify-content-between">
+										<div>
+											<a href="#" class="mb-25 w-full link img_link">
+												<img src="i/blog_36_img_3.jpg" srcset="i/blog_36_img_3@2x.jpg 2x" alt="" class="w-full radius10">
+											</a>
+											<a href="#" class="d-block color-main f-22 medium link">
+												Le Photo
+											</a>
+										</div>
+										 
+									</div>
+								</div>
+								<div class="mb-30 col-md-6">
+									<div class="h-full d-flex flex-column justify-content-between">
+										<div>
+											<a href="#" class="mb-25 w-full link img_link">
+												<img src="i/blog_36_img_4.jpg" srcset="i/blog_36_img_4@2x.jpg 2x" alt="" class="w-full radius10">
+											</a>
+											<a href="#" class="d-block color-main f-22 medium link">
+												XPlore Arts
+											</a>
+										</div>
+										 
+									</div>
+								</div>
+								<div class="mb-30 col-md-6">
+									<div class="h-full d-flex flex-column justify-content-between">
+										<div>
+											<a href="#" class="mb-25 w-full link img_link">
+												<img src="i/blog_36_img_5.jpg" srcset="i/blog_36_img_5@2x.jpg 2x" alt="" class="w-full radius10">
+											</a>
+											<a href="#" class="d-block color-main f-22 medium link">
+												Fly Artwork
+											</a>
+										</div>
+										 
+									</div>
+								</div>
+								<div class="mb-30 col-md-6">
+									<div class="h-full d-flex flex-column justify-content-between">
+										<div>
+											<a href="#" class="mb-25 w-full link img_link">
+												<img src="i/blog_36_img_6.jpg" srcset="i/blog_36_img_6@2x.jpg 2x" alt="" class="w-full radius10">
+											</a>
+											<a href="#" class="d-block color-main f-22 medium link">
+												Journey Art
+											</a>
+										</div>
+										 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Footer 10 -->
+				<footer class="pt-95 pb-135 bg-dark color-white footer_10">
+					<div class="container px-xl-0">
+						<div class="row">
+							<div class="col-lg-1">
+							</div>
+							<div class="mb-50 mb-lg-0 col-lg-3">
+								<a href="#" class="mb-35 link img_link">
+									<img src="i/logo-white.svg" alt="Logo" class="img-fluid">
+								</a>
+								<div class="text-adaptive">
+									Be sure to take a look at 
+									<br>our Terms of Use and 
+									<br>Privacy Policy
+								</div>
+								<div class="mt-35 socials">
+									<a href="#" class="f-18 link color-white mr-15">
+										<i class="fab fa-twitter">
+										</i>
+									</a>
+									<a href="#" class="f-18 link color-white mx-15">
+										<i class="fab fa-facebook-square">
+										</i>
+									</a>
+									<a href="#" class="f-18 link color-white ml-15">
+										<i class="fab fa-google-plus-g">
+										</i>
+									</a>
+								</div>
+							</div>
+							<div class="mb-50 mb-sm-0 col-lg-2 col-sm-3 col-6">
+								<div class="mb-35 f-18 medium title">
+									Product
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Features
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Pricing
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Tour
+									</a>
+								</div>
+							</div>
+							<div class="mb-50 mb-sm-0 col-lg-2 col-sm-3 col-6">
+								<div class="mb-35 f-18 medium title">
+									Work
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Our Portfolio
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Lastest Work
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Brands
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-3 col-6">
+								<div class="mb-35 f-18 medium title">
+									Stuff
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Privacy
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Support
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										Help Desk
+									</a>
+								</div>
+								<div class="mb-10">
+									<a href="#" class="link color-white">
+										FAQ
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-3 col-6">
+								<i class="fas fa-flag">
+								</i>
+								<div class="ml-5 d-inline-block dropdown">
+									<a href="#" class="link color-white dropdown-toggle" id="footer_10_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										English
+									</a>
+									<div class="bg-dark lh-36 dropdown-menu" aria-labelledby="footer_10_dropdown">
+										<div>
+											<a href="#" class="link color-white">
+												French
+											</a>
+										</div>
+										<div>
+											<a href="#" class="link color-white">
+												Italian
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+		<!-- forms alerts -->
+		<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Thanks for your message!
+		</div>
+		<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Please, fill in required fields.
+		</div>
+		<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler" target="_blank" class="link color-transparent-white">here</a>.</div>
+		</div>
+
+		<!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
+		<!--
+		<div class="bg-dark op-8 grecaptcha-overlay"></div>
+		<div class="bg-light radius10 w-350 h-120 px-20 pt-20 pb-20 grecaptcha-popup">
+			<div class="w-full h-full d-flex justify-content-center align-items-center">
+				<div id="g-recaptcha" data-sitekey="PUT_YOUR_SITE_KEY_HERE"></div>
+			</div>
+		</div>
+		<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+		-->
+		<!-- Bootstrap 4.5.2 JS -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+		<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		<!-- 
+			Google maps JS API 
+			Don't forget to replace the key "AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U" to your own! 
+			Learn how to get a key: https://help.designmodo.com/article/startup-google-maps-api/ 
+		-->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+		<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+		<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<!-- Startup JS (Custom js for all blocks) -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
